@@ -20,8 +20,8 @@
 | 文件 | 大小 | SHA256 | 内容 |
 |---|---|---|---|
 | `zzzzDS_LingyuanGS_CustomTex_P.pak` | 81,789,678 B | `BBA3FE3C…` | 去裙内衬 + 去安全裤，**保留后侧纱带**（推荐） |
-| `zzzzDS_LingyuanGS_CustomTex_noback_P.pak` | 79,446,636 B | `03D8EE3E…` | 再去后带（无内裙 / 无裤 / 无后带） |
-| `zzzzDS_LingyuanGS_CustomTex_inner_noback_P.pak` | 80,104,458 B | `2297D3CD…` | 去后带、**保留内裙**（有内裙 / 无裤 / 无后带） |
+| `zzzzDS_LingyuanGS_CustomTex_noback_P.pak` | 79,446,606 B | `EA2D794F…` | 再去后带（无内裙 / 无裤 / 无后带） |
+| `zzzzDS_LingyuanGS_CustomTex_inner_noback_P.pak` | 80,104,422 B | `A3F5814D…` | 去后带、**保留内裙**（有内裙 / 无裤 / 无后带） |
 
 ## 这一版包含什么
 
@@ -32,6 +32,8 @@
 | 袖子 | 法线投射绑定（上背/腋下不再洗出、抬臂不撕） |
 | UI | 英雄页立绘 / 头像 / 图标换成 2D 立绘（取原图左侧 66%，避免被游戏裁切） |
 | 贴图 | **本仓库特色**：4096 图集经过手改（皮肤格调色、局部细节） |
+
+> 2026-11-24 修复：noback / inner_noback 两包首次上传时内部资产名与骨架引用有误，已重建并覆盖上传，请重新下载（CustomTex 主包不受影响）。
 
 pak 共 82 个文件：角色相关 63 个（网格/材质/贴图）+ UI 19 个。
 网格 4 个 section、183 根骨、**不打包 Skeleton**（引用游戏自带骨架）。
